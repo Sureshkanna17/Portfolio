@@ -1,30 +1,27 @@
-# B. Suresh Kanna - GitHub Portfolio
+# React Portfolio - B. Suresh Kanna
 
-Hi, I’m **B. Suresh Kanna**, a software developer with 3 years of experience in **PHP and React.js**.  
-I build scalable web applications, dynamic UIs, and full-stack solutions.  
+This is a ready-to-run React portfolio built with Bootstrap and AOS animations. It also includes a contact form using EmailJS (optional).
 
-## 📂 Projects
+## Quick start
+1. Extract the ZIP to a folder, e.g. `C:\Users\sathy\Desktop\my-portfolio`.
+2. Open **Command Prompt** (not PowerShell) and run:
 
-### 1. [React Todo App](https://github.com/Sureshkanna17/React-Todo-App)
-- Simple Todo app built with React.js
-- Features: Add, delete, complete tasks
-- Live Demo: https://Sureshkanna17.github.io/React-Todo-App
+```
+cd "C:\Users\sathy\Desktop\my-portfolio"
+npm install
+npm start
+```
 
-### 2. [E-commerce Platform](https://github.com/Sureshkanna17/Ecommerce-Platform)
-- Full-stack e-commerce platform with React front-end and PHP backend
-- Features: Product catalog, cart, checkout, user login
-- Live Demo: https://Sureshkanna17.github.io/Ecommerce-Platform
+3. The site will open at `http://localhost:3000`.
 
-### 3. [Custom PHP CMS](https://github.com/Sureshkanna17/Custom-PHP-CMS)
-- Custom content management system built with Core PHP & MySQL
-- Features: Add/edit/delete content, user authentication
-- Live Demo: N/A (local PHP server)
+## EmailJS (optional)
+To enable the contact form, follow these steps:
+1. Create an account at https://www.emailjs.com/ and add an email service.
+2. Create a template (include variables: from_name, reply_to, message).
+3. In `src/components/Contact.js` replace `YOUR_SERVICE_ID`, `YOUR_TEMPLATE_ID`, `YOUR_USER_ID` with the values from EmailJS.
 
-## 📌 Skills
-- **Frontend:** React.js, HTML5, CSS3, Bootstrap
-- **Backend:** PHP, MySQL, REST APIs
-- **Tools:** Git, GitHub, VS Code, Composer, NPM
+## Notes
+- This project uses the following packages: `react`, `react-dom`, `react-scripts`, `bootstrap`, `aos`, `emailjs-com`.
+- If you have issues with PowerShell script policies, use Command Prompt (cmd) instead.
 
-## 📫 Contact
-- Email: sureshkanna4923@gmail.com
-- GitHub: [https://github.com/Sureshkanna17](https://github.com/Sureshkanna17)
+Good luck! If you want, I can also deploy this to GitHub Pages or Netlify for you.
