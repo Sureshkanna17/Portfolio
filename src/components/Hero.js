@@ -7,10 +7,9 @@ export default function Hero() {
           <h1 className="mb-2">B. Suresh Kanna</h1>
           <p className="lead mb-1">Full-Stack Web Developer</p>
           <p>📧 sureshkanna1704@gmail.com | 📞 +91 7639602112 | 📍 Chennai, India</p>
-          <p>• <a href="https://www.linkedin.com/in/suresh-kanna-748a00369" target="_blank" rel="noreferrer">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/suresh-kanna-748a00369" target="_blank" rel="noreferrer">LinkedIn</a></p>
         </div>
         <div className="col-md-4 text-md-end mt-3 mt-md-0">
-          <a className="btn btn-primary me-2" href="#contact">Hire Me</a>
           <a className="btn btn-outline-secondary" href="/sureshkanna.pdf" target="_blank" rel="noreferrer">Download Resume</a>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import emailjs from "@emailjs/browser";
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const form = useRef();
@@ -30,7 +30,7 @@ export default function Contact() {
           <p>📞 +91 7639602112</p>
           <p>📍 Chennai, India</p>
         </div>
-        <div className="col-md-6">
+        {/* <div className="col-md-6">
           <form ref={form} onSubmit={sendEmail}>
             <div className="mb-2">
               <input className="form-control" name="from_name" placeholder="Your name" required />
@@ -44,7 +44,7 @@ export default function Contact() {
             <button className="btn btn-primary" type="submit">Send Message</button>
             {status && <p className="mt-2">{status}</p>}
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );
