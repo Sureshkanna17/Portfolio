@@ -1,0 +1,8 @@
+body { background:#f8fafc; color:#1f2937; font-family: 'Segoe UI', Roboto, Arial, sans-serif; }
+main.container { max-width: 960px; padding-top: 30px; padding-bottom:60px; }
+.header-hero { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 6px 18px rgba(15,23,42,0.06); margin-bottom: 20px; }
+.section-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 6px 12px rgba(15,23,42,0.04); margin-bottom: 18px; }
+.badge-skill { margin-right:8px; margin-bottom:8px; }
+.footer { text-align:center; padding:20px 0; color:#6b7280; }
+.navbar-custom { background: #0f172a; }
+.navbar-custom .nav-link, .navbar-custom .navbar-brand { color: #fff; }
