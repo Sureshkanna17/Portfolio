@@ -10,7 +10,7 @@ export default function Hero() {
           <p><a href="https://www.linkedin.com/in/suresh-kanna-748a00369" target="_blank" rel="noreferrer">LinkedIn</a></p>
         </div>
         <div className="col-md-4 text-md-end mt-3 mt-md-0">
-          <a className="btn btn-outline-secondary" href="/sureshkanna.pdf" target="_blank" rel="noreferrer">Download Resume</a>
+          <a className="btn btn-outline-secondary" href={process.env.PUBLIC_URL + '/SureshKanna.pdf'} target="_blank" rel="noreferrer">Download Resume</a>
         </div>
       </div>
     </section>
