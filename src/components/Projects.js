@@ -1,10 +1,10 @@
 import React from 'react';
 export default function Projects() {
   const projects = [
-    { title: 'React Todo App', desc: 'CRUD task management app with Redux.' },
-    { title: 'E-commerce Platform', desc: 'Catalog, cart & checkout system.' },
+    // { title: 'React Todo App', desc: 'CRUD task management app with Redux.' },
+    // { title: 'E-commerce Platform', desc: 'Catalog, cart & checkout system.' },
     { title: 'Portfolio Website', desc: 'Personal portfolio showcasing projects.' },
-    { title: 'Custom PHP CMS', desc: 'Secure CMS with authentication and role-based access.' }
+    // { title: 'Custom PHP CMS', desc: 'Secure CMS with authentication and role-based access.' }
   ];
   return (
     <section id="projects" className="section-card" data-aos="fade-up">
